@@ -1,0 +1,4 @@
+1. Create RDS instance
+2. Create Ubuntu instance
+3. Install mysql-client in Ubuntu
+4. Connect using : mysql -h .......... -u .... -p

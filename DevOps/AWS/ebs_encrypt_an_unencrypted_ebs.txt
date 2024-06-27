@@ -1,0 +1,6 @@
+* To encrpyt an unencrypted EBS volume
+
+Create an EBS snapshot of the volume
+Encrpyt the EBS snapshot using copy
+Create a new EBS volume from the snapshot (volume will also be encrypted
+Attach the encrpyted volume to the original instance

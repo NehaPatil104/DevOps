@@ -1,0 +1,26 @@
+Connecting Linux Instance =>
+
+1. Save keypair in .pem format
+2. Convert .pem to .ppk in PuttyGen and Save file
+3. Go to Putty and add hostname 
+4. Go to "Auth" => "Credentials" => Select the .ppk file that is converted in step 2
+5. Click Open
+
+
+Lauching a website =>
+1. yum update -y
+2. yum install httpd -y
+3. cd /var/www/html
+4. Add index.html
+5. service httpd start
+6. chkconfig on
+
+#!/bin/bash
+sudo su
+yum update -y
+yum install httpd -y
+systemctl start httpd
+systemctl enable httpd
+echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
+
+Copy public IP in browser

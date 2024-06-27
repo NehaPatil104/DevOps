@@ -1,0 +1,109 @@
+1. Creating file in Linux
+=> touch file-name.sh
+
+2. Listing files in directry
+=> ls
+
+3. Open and view the file
+=> vi file-name.sh
+
+4. Writing shell script
+#! => shebang
+#!/bin/bash
+
+For quiting file
+:q => quit
+:wq => save and quit
+
+5. Printing something
+=> echo "Hiiiiii"
+
+6. Printing content of file
+=> cat file-name.sh
+
+7. Execute the file
+=> ./file-name.sh
+
+8. File permission
+chmod => 1 2 3
+1 => root user permissions
+2 => group permissions
+3 => To world
+
+=> chmod 777 file_name => Permission to all
+4 -> read
+2 -> write
+1 -> execute
+
+=> chmod +x file_name
+
+9. Show history of commands
+=> history
+
+10. Get the current working directory
+=> pwd
+
+11. Create folder
+=> mkdir folder-name
+
+12. Change directory
+=> cd path
+
+13. Remove file
+=> rm -rf filename
+
+14. Print the number of processing units available in the system or to the current process
+=> nproc
+
+15. Memory present (RAM)
+=> free
+
+16. Display running process
+=> top
+
+17. Total space and available space on a file system
+=> df
+
+Shell Scripting in DevOps:
+    1. Infrastructure Management
+    2. Configuration Management
+
+18. List all files in detailed format
+=> ls -al
+
+22. Remove file
+=> rm file_name
+
+23. Remove the directory with the content inside
+=> rm -r directory_name
+
+24. Copy file
+=> cp file1 file2
+
+25. Rename or move file
+=> mv file1 file2
+
+26. Display first 10 lines of file
+=> head file_name
+
+27. Display last 10 lines of file
+=> taile file_name
+
+28. Pattern finding
+grep pattern file_name
+
+29. Search for files and directories
+=> find path filtering_criteria
+find ./documents "*txt"
+
+30. Display current username
+=> whoami
+
+31. command  > file
+=> output of command is redirected to file
+
+32. command < file
+=> Input is taken from file
+
+33. command >> file
+=> Appends the output to the exisiting file

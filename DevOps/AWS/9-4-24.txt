@@ -1,0 +1,27 @@
+1. Different policies - trusted policy, identity-based, resource-based, Permisssion boundary
+2. Private IPs and Public IPs
+3. Created a VPC
+4. Created subnets within the VPC
+5. Created Internet Gateway and associated it with the VPC
+6. Edited Route Table so that the traffic can be sent to Internet Gateway
+7. Accessing the SSH of the private instance from Bastion Host
+
+
+DSR:09/04/2024
+Hi,
+
+i. What I did today:
+1. Understood different policies - trusted policy, identity-based, resource-based, Permisssion boundary
+2. Private IPs and Public IPs
+3. Created a VPC
+4. Created subnets within the VPC
+5. Created Internet Gateway and associated it with the VPC
+6. Edited Route Table so that the traffic can be sent to Internet Gateway
+7. Accessing the SSH of the private instance from Bastion Host
+
+
+ii. What will I do tomorrow -
+Will continue the course, learning VPCfurther
+
+iii. Any roadblocks - 
+No roadblocks as such.

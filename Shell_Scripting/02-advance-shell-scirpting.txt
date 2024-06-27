@@ -1,0 +1,28 @@
+* Shebang
+#!/bin/bash => Should be present as a first line of script
+
+* Comments
+1. Single Line : #
+2. Multi-line: <<comment
+ ...
+ ...
+ <<comment
+
+* Variables
+var_name = VALUE
+var_name = $(hostname)
+
+echo $var_name
+
+
+* Constant Variables
+readonly var_name
+
+* Array
+
+myArray = (1 2 "hello ji")
+
+echo "${myArray[0]}"
+
+Length of the Array
+=> ${#myArray[*]}

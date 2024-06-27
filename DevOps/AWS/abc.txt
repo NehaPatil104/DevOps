@@ -1,0 +1,21 @@
+1. EC2 Instance Purchasing Options and Launch Types...Spot, Dedicated, Capacity Reservation, On Demand
+2. Associate Elastic IP
+3. Created placement group...Cluster, Spread, Partition
+4. EC2 Hibernate
+5. Launched instance using AMI
+
+
+DSR:03/04/2024:Training
+Hi,
+
+i. What I did today:
+1. Learned EC2 Instance Purchasing Options and Launch Types, EC2 Hibernate
+2. Associated Elastic IP to EC2 Instance
+3. Created placement group
+5. Launched instance using AMI
+
+ii. What will I do tomorrow -
+Will continue the course, learning Advance IAM
+
+iii. Any roadblocks - 
+Had a error while creating AMI, but solved it.
